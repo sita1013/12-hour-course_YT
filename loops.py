@@ -17,4 +17,27 @@ while not food == "q":
     food = input("Enter another food you like (q to quit): ")
 print("bye bye")"""
 
+"""
+for i in range(1, 11):
+    print(i)
+
+for i in reversed(range(1, 11)):
+    print(i)
+print("Happy New Year!")
+
+for i in range(1, 11, 3):
+    print(i)
+
+credit_card = "1234-5678-9101"
+for i in credit_card: 
+    print(i)
+"""
+for i in range(1, 21):
+    if i == 13:
+        continue
+    elif i == 19:
+        break
+    else: 
+        print(i)
+
 
